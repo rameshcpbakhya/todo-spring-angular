@@ -40,6 +40,7 @@ public class UserService {
         userRepository.save(newUser);
         log.debug("Created Information for User: {}", newUser);
         return newUser;
+        /*end of method*/
     }
 
     public void changePassword(String password) {
